@@ -1,0 +1,6 @@
+﻿cd .\SQLLite
+dotnet ef migrations add InitialCreate
+
+dotnet ef migrations add InitialCreate -c SQLLiteContext
+
+//dotnet ef database update
